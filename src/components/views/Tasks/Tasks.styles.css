@@ -1,0 +1,147 @@
+#tasks {
+  padding: 20px 15px 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+#tasks .wrapper_list {
+  background-color: #fafafa;
+  border-radius: var(--global-radius);
+  height: calc((100vh - 100px));
+  padding: 10px;
+  box-shadow: 0 2px 5px #dbdbdb;
+}
+
+#tasks .wrapper_list h2 {
+  font-size: 1.2rem;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.list_group {
+  display: flex;
+  flex-direction: row;
+  gap: 5px 10px;
+}
+
+.list_group .list {
+  flex: 1;
+  border-radius: var(--global-radius);
+  padding: 10px;
+  box-shadow: 0 2px 5px #dbdbdb;
+  background-color: white;
+}
+
+.list_group .list h4 {
+  font-size: 1.2rem;
+  margin: 0 0 5px;
+}
+
+#tasks .card {
+  background-color: #fff;
+  border: var(--global-border);
+  border-radius: 12px;
+  margin-bottom: 0.8rem;
+  padding: 0.8rem 1.1rem 0.9rem;
+  position: relative;
+  transition: transform 0.2s ease-out;
+}
+
+#tasks .card .close {
+  cursor: pointer;
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  font-size: 18px;
+}
+
+#tasks .card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.2rem;
+}
+
+#taks .card h6,
+#tasks .card h5 {
+  color: #424242;
+  font-size: 0.6rem;
+  margin: 0 0 0.1rem;
+}
+
+#tasks .card button {
+  transition: all ease-in-out 0.2s;
+  border-radius: 4px;
+  border: 2px solid white;
+  font-size: 0.6rem;
+  font-weight: 700;
+  margin: 0.35rem 0.2rem 0.15rem 0;
+  padding: 0.3rem 0.3rem;
+  background-color: var(--global-primary-color);
+  color: white;
+  cursor: pointer;
+}
+
+#tasks .card button.high {
+  background-color: #ff3232;
+  border-color: #ff3232;
+}
+
+#tasks .card button.high:hover {
+  background-color: white;
+  color: #ff3232;
+}
+
+#tasks .card button.low,
+#tasks .card button.finished {
+  background-color: #1ec876;
+  border-color: #1ec876;
+}
+
+#tasks .card button.low:hover ,
+#tasks .card button.finished:hover {
+  background-color: white;
+  color: #1ec876;
+}
+
+
+#tasks .card button.new {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+#tasks .card button.new:hover {
+  background-color: white;
+  color: #007bff;
+}
+
+#tasks .card button.medium,
+#tasks .card button.progress {
+  background-color: #fbde3f;
+  border-color: #fbde3f;
+  color: #333;
+}
+
+#tasks .card button.medium:hover,
+#tasks .card button.progress:hover {
+  background-color: #333;
+  color: #fbde3f;
+}
+
+
+#taks .card p {
+  color: #424242;
+  display: block;
+  font-size: 0.8rem;
+  margin:  0;
+}
+
+@media (min-width: 900px) {
+  #tasks {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1300px) {
+  #tasks .wrapper_list {
+    flex: 1;
+  }
+}

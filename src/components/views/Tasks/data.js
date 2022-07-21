@@ -1,0 +1,38 @@
+export const cardsData = [
+  {
+    id: 1,
+    title: "Task 1",
+    datetime: "24/01/2022 16:40 hs.",
+    creator: "Jano Melul",
+    description: "Descripcion 1",
+    type: "new",
+    priority: "high",
+  },
+  {
+    id: 2,
+    title: "Task 2",
+    datetime: "24/01/2022 16:40 hs.",
+    creator: "Jano Melul",
+    description: "Descripcion 2",
+    type: "inProcess",
+    priority: "low",
+  },
+  {
+    id: 3,
+    title: "Task 3",
+    datetime: "24/01/2022 16:40 hs.",
+    creator: "Jano Melul",
+    description: "Descripcion 3",
+    type: "finished",
+    priority: "medium",
+  },
+  {
+    id: 4,
+    title: "Task 4",
+    datetime: "24/01/2022 16:40 hs.",
+    creator: "Jano Melul",
+    description: " nice warm laptop for me to sit on. Poop on couch love to play with owner's hair tie. Gnaw the corn cob i love cats i am one wake up scratch humans leg for food then purr then i have a and relax catch mouse and gave it as a present pooping rainbow while flying in a toasted bread costume in space, so hiding behind the couch until lured out by a feathery toy there's a forty year old lady there let us feast. Jump on counter removed by human jump on counter again removed by human meow before jumping on counter this time to let the human know am coming back pooping rainbow while flying in a toasted bread costume in space get video posted to internet for chasing red dot so refuse to drink water except out of someone's glass lick master's hand at first then bite because im moody so the dog smells bad find something else more interesting. Enslave the hooman chase laser but slap the dog because cats rule all of a sudden cat goes crazy while happily ignoring when being called and please stop looking at your phone and pet me but eat an easter feather as if it were a bird then burp victoriously, but tender.",
+    type: "new",
+    priority: "high",
+  },
+]
